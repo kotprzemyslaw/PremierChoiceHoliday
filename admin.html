@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Admin Page</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1 class ="logo">Premier Choice Holidays</h1>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="premierChoice.php">View Holidays</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="credits.html">Credits</a></li>
+                <li><a href="wireframe.pdf" target="_blank">Wireframe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <form class="holidayForm" action="admin.php" method="post" name="holidayForm">
+                <ul>
+                    <li>
+                        <h2>Add Holiday</h2>
+                    </li>
+                    <li>
+                        <label for="title">Holiday Title:</label>
+                        <input type="text" name="title" id="title" placeholder="Insert Holiday Title" required/>
+                    </li>
+                    <li>
+                        <label for="description">Holiday Description:</label>
+                        <textarea name="description" id="description" cols="60" rows="8" placeholder="Insert Holiday Description"
+                                  required></textarea>
+                    </li>
+                    <li>
+                        <label>Holiday Category:</label>
+                        <select name="category">
+                            <option value="c1">Luxury</option>
+                            <option value="c2">Tour</option>
+                            <option value="c3">Safari</option>
+                            <option value="c4">Gold</option>
+                            <option value="c5">Weddings</option>
+                            <option value="c6">Walking</option>
+                            <option value="c7">Opera</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Holiday Location:</label>
+                        <select name="location">
+                            <option value="l1">Algarve</option>
+                            <option value="l2">Boston</option>
+                            <option value="l3">Milaidhoo Island</option>
+                            <option value="l4">Nairobi</option>
+                            <option value="l5">New York</option>
+                            <option value="l6">Rangali Island</option>
+                            <option value="l7">San Francisco</option>
+                            <option value="l8">Sorrento</option>
+                            <option value="l9">Verona</option>
+                            <option value="l10">Zanzibar</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="duration">Holiday Duration:</label>
+                        <input type="number" name="duration" id="duration" min="1" step="1" size="3" duration="duration"
+                               placeholder="Insert Holiday Duration" required/>
+                    </li>
+                    <li>
+                        <label for="price">Holiday Price:</label>
+                        <input type="number" name="price" id="price" min="1" step="1" size="3" price="price"
+                               placeholder="Insert Holiday Price" required/>
+                    </li>
+                    <li>
+                        <button type="submit">Add holiday</button>
+                    </li>
+                </ul>
+            </form>
+        </main>
+    </div>
+
+    <footer style="margin-top: 2.5em;">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class ="footer-title">Premier Choice Holiday</div>
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="footer-legal">
+                    <a href="#">Cookies policy</a>
+                </div>
+
+                <div class ="footer-legal">
+                    <a href="#">Terms and conditions</a>
+                </div>
+
+                <div class="footer-legal">
+                    <a href="#">Privacy policy</a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; Premier Choice Holiday 2017. 15 Stepney Lane, New Castle Upon Tyne, UK.
+                        VAT number 766572347. Company number 3781284</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

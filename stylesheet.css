@@ -1,0 +1,421 @@
+body
+{
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+}
+
+html
+{
+    height: 100%;
+}
+
+h1.logo
+{
+    font-size: 2.7em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+nav
+{
+    background-color: #1C708C;
+    text-align: center;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.5em;
+    min-height: 2em;
+    line-height: 200%;
+}
+
+.menu > li
+{
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu > li:hover
+{
+    text-decoration: underline;
+}
+
+.wrapper
+{
+    display: block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67em;
+    margin-top: 1.5em;
+    background-color: #f7f5f2;
+    border-top: solid 1px #c7c7c7;
+}
+
+h2
+{
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 1em;
+    color: #007B9D;
+}
+
+.title
+{
+    font-size: 1.75em;
+    text-decoration: underline;
+    margin-left: 0px;
+    color: #323232;
+}
+
+#details
+{
+    font-size: 1em;
+    font-weight:bold;
+}
+
+.box
+{
+    margin: 1em;
+    float: left;
+    width: 31.25em;
+    position: relative;
+    border-spacing: 0;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px #c7c7c7;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.image-box
+{
+    height: auto;
+}
+
+.overlayPosition
+{
+    position: absolute;
+    width: 22%;
+    padding-left: 78%;
+}
+
+.headingBox
+{
+    background-color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    opacity: 0.5;
+}
+
+.headingBox-title
+{
+    overflow: hidden;
+    color: #000;
+}
+
+.headingBox-title h3
+{
+    font-size: 14px;
+    max-height: 10px;
+    text-align: center;
+}
+
+.price
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box-bottom
+{
+
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-top: 2px #000;
+    height: 180px;
+}
+
+.box-bottom-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C708C;
+    padding: 5px;
+}
+
+.box-bottom-subtitle
+{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+.box-bottom-learn
+{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box-bottom-category
+{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer
+{
+    clear: both;
+}
+
+.box-bottom-footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 18px;
+    font-style: italic;
+    color: #1C708C;
+    padding: 5px 10px;
+}
+
+.footer-container
+{
+    background: #B4CDCD;
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-top
+{
+    display: table-row;
+}
+
+.footer-bottom
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.footer-legal
+{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 14px;
+    text-decoration: underline;
+    border-left: solid 1px #000;
+    line-height: 20px;
+}
+
+.footer-legal:first-child
+{
+    border-left: 0;
+}
+
+.footer-legal a
+{
+    color: #323232;
+}
+
+.footer-legal a:hover
+{
+    color: #000;
+}
+
+.footer-copyright p
+{
+    font-size: 12px;
+    color: #323232;
+}
+
+.footer-title
+{
+    display: block;
+    font-size: 1em;
+    margin: 1.33em 0;
+    font-weight: bold;
+}
+
+.holidayForm
+{
+    margin-left: 20%;
+}
+
+.holidayForm ul
+{
+    width: 44em;
+    list-style-type: none;
+    list-style-position:outside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.holidayForm li
+{
+    padding: 0.8em;
+    border-bottom: 1px solid #eee;
+    position:relative;
+}
+
+.holidayForm li:first-child
+{
+    border-bottom:1px solid #888;
+}
+
+.holidayForm h2
+{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.holidayForm label
+{
+    width: 9em;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 3px;
+}
+
+.holidayForm input
+{
+    height: 1em;
+    width: 13em;
+    padding: 5px 8px;
+    margin-left: 2em;
+}
+
+.holidayForm textarea
+{
+    padding: 0.5em;
+    margin-left: 2em;
+    resize: none;
+}
+
+.holidayForm select
+{
+    margin-left: 2em;
+}
+
+.holidayForm button
+{
+    margin-left: 13em;
+}
+
+/* Media query for large screens - 1100px or less*/
+@media screen and (max-width: 1100px)
+{
+    .menu > li
+    {
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrapper
+    {
+        width: 55%;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+
+    .box
+    {
+        width: auto;
+    }
+
+}
+/* Media query for smaller screens - 760px or less*/
+@media screen and (max-width: 760px)
+{
+    .menu > li
+    {
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrapper
+    {
+        width: 75%;
+    }
+
+    .box
+    {
+        width: auto;
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+}
+/* Media query for mobile sized devices - 550px or less*/
+@media screen and (max-width: 550px)
+{
+    .menu > li
+    {
+        font-size: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrapper
+    {
+        width: 90%;
+    }
+
+    .box
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+}
+
+
+
+
